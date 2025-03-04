@@ -51,5 +51,7 @@ class Demo extends ABC {
         obj.disp();
         ABC obj2 = new Demo();
         obj2.disp();
+        Demo obj3 = new Demo();
+        obj3.newMethod();
     }
 }
