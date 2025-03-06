@@ -1,3 +1,30 @@
-public class Bank_Exercise {}
+public class Bank_Exercise {
 
-// Consider a scenario where Bank is a class that provides functionality to get the rate of interest. However, the rate of interest varies according to banks. For example, SBI, ICICI and AXIS banks could provide 8%, 7%, and 9% rate of interest.
+}
+class SBI extends Bank_Exercise {
+    public float getRateOfInterest() {
+        return 0.08f;
+    }
+}
+class ICICI extends Bank_Exercise {
+    public float getRateOfInterest() {
+        return 0.07f;
+    }
+}
+
+class AXIS extends Bank_Exercise {
+    public float getRateOfInterest() {
+        return 0.09f;
+    }
+}
+
+class main {
+    public static void main(String[] args) {
+        SBI s = new SBI();
+        System.out.println("Rate of Interest of SBI is: " + s.getRateOfInterest());
+        ICICI i = new ICICI();
+        System.out.println("Rate of Interest of ICICI is: " + i.getRateOfInterest());
+        AXIS a = new AXIS();
+        System.out.println("Rate of Interest of AXIS is: " + a.getRateOfInterest());
+    }}
+
