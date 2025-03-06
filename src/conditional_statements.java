@@ -2,6 +2,12 @@
 
 //public class conditional_statements {}
 
+/*
+    if(Boolean_expression) {
+    // Statements will execute if the Boolean expression is true
+    }
+*/
+
 class Test {
     public static void main(String[] args) {
         int x = 10;
