@@ -7,6 +7,8 @@
     // Statements will execute if the Boolean expression is true
     }
 */
+import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 class Test {
     public static void main(String[] args) {
