@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// https://sites.google.com/revature.com/studyguide/java/looping-constructs?authuser=0
 
 public class looping_constructs { }
 
