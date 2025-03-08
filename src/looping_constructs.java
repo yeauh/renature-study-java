@@ -30,3 +30,16 @@ class Test2 {
         }
     }
 }
+
+class Test3 {
+    public static void main(String[] args) {
+        System.out.print("Do..While loop\n");
+        int x = 10;
+
+        do {
+            System.out.print("Value of x: " + x);
+            x++;
+            System.out.println();
+        } while (x < 20);
+    }
+}
