@@ -10,6 +10,7 @@
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
+// Incorporating JOptionPane for a GUI input on line 19
 class Test {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
