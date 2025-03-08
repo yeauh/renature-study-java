@@ -43,3 +43,16 @@ class Test3 {
         } while (x < 20);
     }
 }
+
+class Test4 {
+    public static void main(String[] args) {
+        System.out.print("Enhanced For Loop\n");
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        for (int x : numbers) {
+            System.out.print(x);
+            System.out.print(", ");
+        }
+        System.out.println();
+    }
+}
