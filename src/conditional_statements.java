@@ -22,5 +22,11 @@ class Test {
         } else {
             System.out.println("x is less than or equal to 5");
         }
+        int yParshed = Integer.parseInt(y);
+        if (yParshed > 5) {
+            System.out.println("yParshed is greater than 5");
+        } else {
+            System.out.println("yParshed is less than or equal to 5");
+        }
     }
 }
